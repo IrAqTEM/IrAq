@@ -1,4 +1,4 @@
-# <p align="center" > تنصيب سورس وان سپيد
+# <p align="center" > تنصيب سورس عراق
 # <p align="center" > ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
 # <p align="center" > ⤈ ↫ كود التنصيب الاول مع المكاتب ↬ ⤈
 # <p align="center" > `git clone https://github.com/IrAqTEM/IrAq.git;cd IrAq;chmod +x IrAq.sh;./IrAq.sh install`
