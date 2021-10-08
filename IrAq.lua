@@ -1745,6 +1745,7 @@ local key = {
 {'~ تعيين كلايش الاوامر ~'},
 {'تعطيل البوت الخدمي','تفعيل البوت الخدمي'},
 {'جلب نسخه السورس','تحديث السورس','جلب نسخه الكروبات'},
+{'تحديث المتجر'},
 {'↫ حذف رد عام ♪','↫ الردود العام ♪','↫ اضف رد عام ♪'},
 {'↫ حذف رد الخاص ♪','↫ تعيين رد الخاص ♪'},
 {'حذف قناة الاشتراك','قناة الاشتراك','تعيين قناة الاشتراك'},
@@ -10434,6 +10435,22 @@ Dev_Ali(msg.chat_id_, msg.id_, 1, (Help or Text), 1, 'md')
 end
 --     Source IrAq     --
 if SecondSudo(msg) then
+if text == 'تحديث المتجر' then 
+io.popen("mkdir Files")
+os.execute("rm -fr Files/*")
+io.popen("cd Files && wget https://raw.githubusercontent.com/IrAqTEM/IrAqFiles/main/IrAqFiles/AddedMe.lua") 
+io.popen("cd Files && wget https://raw.githubusercontent.com/IrAqTEM/IrAqFiles/main/IrAqFiles/AutoFile.lua")  
+io.popen("cd Files && wget https://raw.githubusercontent.com/IrAqTEM/IrAqFiles/main/IrAqFiles/ChangeName.lua") 
+io.popen("cd Files && wget https://raw.githubusercontent.com/IrAqTEM/IrAqFiles/main/IrAqFiles/ChangePhoto.lua") 
+io.popen("cd Files && wget https://raw.githubusercontent.com/IrAqTEM/IrAqFiles/main/IrAqFiles/ChangeUser.lua") 
+io.popen("cd Files && wget https://raw.githubusercontent.com/IrAqTEM/IrAqFiles/main/IrAqFiles/MuteNames.lua") 
+io.popen("cd Files && wget https://raw.githubusercontent.com/IrAqTEM/IrAqFiles/main/IrAqFiles/ProNames.lua") 
+io.popen("cd Files && wget https://raw.githubusercontent.com/IrAqTEM/IrAqFiles/main/IrAqFiles/ReplyBot.lua") 
+io.popen("cd Files && wget https://github.com/IrAqTEM/IrAqFiles/blob/main/IrAqFiles/TagAdmins.lua") 
+io.popen("cd Files && wget https://raw.githubusercontent.com/IrAqTEM/IrAqFiles/main/IrAqFiles/TagAll.lua") 
+Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙تم تحديث المتجر الى الاصدار الجديد', 1, 'md') 
+dofile('IrAq.lua') 
+end
 if text == "تحديث السورس" or text == "تحديث سورس" then 
 Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙جاري تحديث سورس عراق', 1, 'md') 
 os.execute('rm -rf IrAq.lua') 
@@ -10441,7 +10458,7 @@ os.execute('wget https://raw.githubusercontent.com/IrAqTEM/IrAq/master/IrAq.lua'
 dofile('IrAq.lua') 
 io.popen("rm -rf ../.telegram-cli/*")
 print("\27[31;47m\n          ( تم تحديث السورس )          \n\27[0;34;49m\n") 
-Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙تم التحديث الى الاصدار الجديد', 1, 'md') 
+Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙تم التحديث الى الاصدار 2.0', 1, 'md') 
 end
 if text == 'تحديث' or text == 'تحديث البوت' or text == '↫ تحديث ♪' then  
 dofile('IrAq.lua') 
