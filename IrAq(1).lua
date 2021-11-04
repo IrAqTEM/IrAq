@@ -1,8 +1,8 @@
 ------------------------------------------------
--- This Source Was Developed By (Ali) @AAAPA.--
---    This Is The Source Channel @PPPTP .    --
+-- This Source Was Developed By (Ali) @FFF70F.--
+--    This Is The Source Channel @vz_91 .    --
 --                 - IrAq -                  --
---         -- https://t.me/PPPTP --          --
+--         -- https://t.me/vz_91 --          --
 ------------------------------------------------ 
 redis = require('redis') 
 URL = require('socket.url') 
@@ -3463,7 +3463,7 @@ name = string.gsub(name,'🥦','🥦')
 name = string.gsub(name,'🥒','🥒')
 name = string.gsub(name,'🌶','🌶')
 name = string.gsub(name,'🌽','🌽')
-name = string.gsub(name,'??','🥕')
+name = string.gsub(name,'🥕','🥕')
 name = string.gsub(name,'🥔','🥔')
 name = string.gsub(name,'🍠','🍠')
 name = string.gsub(name,'🥐','🥐')
@@ -10814,7 +10814,7 @@ end
 --     Source IrAq     --
 end 
 ------------------------------------------------
--- This Source Was Developed By (Ali) @AAAPA.--
+-- This Source Was Developed By (Ali) @FFF70F.--
 --   This Is The Source Channel @vz_91 .   --
 --                - IrAq -                 --
 --        -- https://t.me/vz_91 --         --
