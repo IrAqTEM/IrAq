@@ -22,3 +22,4 @@
 # <p align="center" > ⤈ ↫ كود تغير ايدي المطور الاساسي وتوكن البوت ↬ ⤈
 # <p align="center" > `cd IrAq;rm -rf config.lua;./Run`
 # <p align="center" > ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
+# <p align="center" >للتواصل المبرمج  @FFF70F
